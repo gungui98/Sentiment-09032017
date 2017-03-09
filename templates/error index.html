@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<form action="{{ url_for('search') }}" class="form-inline" method="get">
+    <div class="form-group">
+      <label class="sr-only" for="screen_name">Tài khoản Tweeter<!--screen_name--></label>
+      <input class="form-control" name="screen_name" placeholder="tài khoản twitter (eg:@gungui98) @screen_name" type="text"/>
+  
+  </div>
+  <button class="btn btn-default" type="submit">Tìm Kiếm <!--Search--></button>
+  <div style="font-size:14px; color:red;width:100%;float:right;margin:10px 0 20px 0;">
+                <span style="text-align:center;display:inline-block;width:15px; height:15px; border-radius:15px;background-color:red;color:#ffffff; line-height: 15px;font-weight:bold; font-size:14px;">!</span>
+                <span>
+                    
+                    
+                    
+                    tài khoản không có bài đăng hoặc không tồn tại!
+                    
+                    
+                </span>
+  </div>
+</form>
+{% endblock %}
