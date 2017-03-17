@@ -8,4 +8,4 @@ How to run:
       1,creat an twitter app and get API key and API secret
       2,set APIs to environment
       3,run flask and taste!
-first truly python program ^^!
+first truely python program ^^!
