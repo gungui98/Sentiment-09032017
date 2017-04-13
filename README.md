@@ -1,6 +1,6 @@
 # Sentiment-09032017
 Decription
-      an sentiment analyzer on twitter post
+      an sentiment analyzer on twitter post 
       using  nltk,python 3.0,twython and flask
       chart rendered by plotly
       user interface using vietnamese
